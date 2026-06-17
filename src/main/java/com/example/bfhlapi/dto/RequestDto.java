@@ -1,0 +1,37 @@
+package com.example.bfhlapi.dto;
+
+import jakarta.validation.constraints.NotNull;
+import java.util.List;
+
+public class RequestDto {
+
+    @NotNull
+    private List<String> data;
+
+    public List<String> getData() {
+        return data;
+    }
+
+    public void setData(List<String> data) {
+        this.data = data;
+    }
+}
+
+//package com.example.bfhl.dto;
+//
+//import jakarta.validation.constraints.NotNull;
+//import java.util.List;
+//
+//public class RequestDto {
+//
+//    @NotNull
+//    private List<String> data;
+//
+//    public List<String> getData() {
+//        return data;
+//    }
+//
+//    public void setData(List<String> data) {
+//        this.data = data;
+//    }
+//}
