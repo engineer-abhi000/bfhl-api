@@ -26,4 +26,8 @@ public class BfhlController {
                 bfhlService.process(request, requestId)
         );
     }
+    @GetMapping("/health")
+    public String health() {
+        return "OK";
+    }
 }
